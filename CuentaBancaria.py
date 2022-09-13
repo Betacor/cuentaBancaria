@@ -36,31 +36,3 @@ class CuentaBancaria:
         for cuenta in cls.lista_cuentas:
             print(f"{cuenta.nro_cuenta} : Su balance es de {round(cuenta.balance)} pesos, con una tasa de interés de {cuenta.tasa_interes}%")
     
-
-
-
-
-
-
-
-
-
-
-
-#    def __init__(self, tasa_interes, balance):
-#         self.tasa_interes = tasa_interes
-
-#         self.balance = balance
-
-
-#     def deposito(self, cantidad):
-#         self.saldo += cantidad
-#         return self
-
-#     def giro(self, cantidad):
-#         self.saldo -= cantidad
-#         return self
-
-#     def mostrar_info_cuentas(self)
-#         print
-
